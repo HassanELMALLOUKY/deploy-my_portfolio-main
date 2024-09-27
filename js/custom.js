@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var translations = {
         en: {
             my_job:"Full Stack Developer",
-            about_me:"Hi, I am currently a graduate with a Master's degree in Computer Systems Engineering from the Polydisciplinary Faculty at Sultan Moulay Slimane University of Beni Mellal. I am seeking an outstanding internship or freelance opportunity to enhance my skills and take on exciting new challenges.",
+            about_me:"Hello! I am a Full Stack Java Developer with 7 months of experience and a Master's degree in Computer Systems Engineering. I am currently seeking a position in IT development. I have expertise in Spring Boot, Angular, and Flutter, along with a strong academic background. I am highly motivated to contribute my skills and grow within a dynamic team.",
             home:"Home",
             me:"I'm EL MALLOUKY Hassan",
             title:"EL MALLOUKY Hassan's Portfolio",
@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', function() {
             //====================== about section ========================
             about_section:"About Me",
             about_hello:"Hi",
-            about_message:"I am Hassan and I am currently a graduate with a Master's degree in Computer Systems Engineering from the Polydisciplinary Faculty at Sultan Moulay Slimane University of Beni Mellal. I am seeking an outstanding internship or freelance opportunity to enhance my skills and take on exciting new challenges.",
+            about_message:"Hello! I am a Full Stack Java Developer with 7 months of experience and a Master's degree in Computer Systems Engineering. I am currently seeking a position in IT development. I have expertise in Spring Boot, Angular, and Flutter, along with a strong academic background. I am highly motivated to contribute my skills and grow within a dynamic team.",
             about_name:"Full Name : <span class=\"text-dark\">Hassan EL MALLOUKY</span>",
             about_birth:"Birthday : <span class=\"text-dark\">02/10/1999</span>",
             about_location:" Location : <span class=\"text-dark\">Khenifra, Morocco</span>",
@@ -348,7 +348,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         fr: {
             my_job: "Développeur Full Stack",
-            about_me:"Bonjour ! Je suis actuellement diplômé d'un Master en Ingénierie des Systèmes Informatiques de la Faculté Polydisciplinaire de l'Université Sultan Moulay Slimane de Beni Mellal. Je suis à la recherche d'un stage exceptionnel ou d'une opportunité en freelance pour améliorer mes compétences et relever de nouveaux défis passionnants.",
+            about_me:"Bonjour ! Je suis développeur FullStack Java avec 7 mois d'expérience et titulaire d'un Master en ingénierie des systèmes informatiques. Je suis à la recherche d'un poste en développement IT. Je maîtrise Spring Boot, Angular et Flutter, avec une solide formation académique. Je suis motivé à apporter mes compétences et à évoluer au sein d'une équipe dynamique.",
             home:"Accueil",
             me:"Je Suis EL MALLOUKY Hassan",
             title:"Portfolio d'EL MALLOUKY Hassan",
