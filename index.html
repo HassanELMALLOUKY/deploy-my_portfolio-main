@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title id="title">EL MALLOUKY Hassan's Portfolio</title>
+	<meta name="description" content="Bako - Personal Portfolio & Resume HTML Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link class="img-circle img-fluid profile" rel="shortcut icon" type="image/x-icon" href="images/p.png">
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/simplebar.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
+    <style>
+		.success-message {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px;
+			border-radius: 5px;
+			text-align: center;
+			display: none;
+		}
+	</style>
+	  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+	</script>
+
+
+
+</head>
+
+<body>
+
+<!-- preloader -->
+<div id="preloader">
+	<div class="outer">
+		<div class="spinner">
+			<div class="dot1"></div>
+			<div class="dot2"></div>
+		</div>
+	</div>
+</div>
+
+<!-- site wrapper -->
+<div class="site-wrapper">
+
+	<!-- mobile header -->
+	<div class="mobile-header py-2 px-3 mt-4">
+		<button class="menu-icon mr-2">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<a href="index.html" class="site-title dot ml-2">EL MALLOUKY Hassan</a>
+	</div>
+
+	<!-- header -->
+	<header class="left float-left shadow-dark" id="header">
+		<button type="button" class="close" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="header-inner d-flex align-items-start flex-column">
+			<a href="index.html" class="site-title dot mt-3">EL MALLOUKY Hassan</a>
+			<span id="my_job" class="site-slogan">Full Stack Developer</span>
+			
+			<!-- navigation menu -->
+			<nav>
+				<ul class="vertical-menu scrollspy">
+					<li><a id="home_icon" href="#home" class="active"><i class="icon-home"></i>Home</a></li>
+					<li><a id="about_icon" href="#about"><i class="icon-user"></i>About</a></li>
+					<li><a id="skills_icon" href="#skills"><i class="icon-bulb"></i>My Skills</a></li>
+					<li><a id="services_icon" href="#services"><i class="icon-settings"></i>My Services</a></li>
+					<li><a id="education_icon" href="#education"><i class="icon-graduation"></i>Education</a></li>
+					<li><a id="projects_icon" href="#projects"><i class="icon-grid"></i>Projects</a></li>
+					<li><a id="contact_icon" href="#contact"><i class="icon-phone"></i>Contact</a></li>
+				</ul>
+			</nav>
+			
+			<!-- footer -->
+			<div class="footer mt-auto">
+
+				<!-- social icons -->
+				<ul class="social-icons list-inline">
+					<li class="list-inline-item"><a href="https://www.linkedin.com/in/hassanelmallouky"><i class="fab fa-linkedin"></i></a></li>
+					<li class="list-inline-item"><a href="https://wa.me/212655306439"><i class="fab fa-whatsapp"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.facebook.com/hassan.elmallouky"><i class="fab fa-facebook-f"></i></a></li>
+					<li class="list-inline-item"><a href="https://github.com/HassanELMALLOUKY"><i class="fab fa-github"></i></a></li>
+				</ul>
+
+				<!-- copyright -->
+				<span class="copyright">© 2023 copyright</span>
+			</div>
+		</div>
+	</header>
+
+	<!-- main content area -->
+	<main class="content float-right">
+
+		<!-- section hero -->
+		<section class="hero background parallax shadow-dark d-flex align-items-center" id="home" data-image-src="https://via.placeholder.com/900x600">
+			<div class="language-selector">
+				<select id="language-select" class="selectpicker" data-width="fit">
+					<option value="en" data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+					<option value="fr" data-content='<span class="flag-icon flag-icon-fr"></span> Français'>Français</option>
+				</select>
+			</div>
+			<div class="cta mx-auto mt-2">
+				<h1 id="me" class="mt-0 mb-4">I'm EL MALLOUKY Hassan<span class="dot"></span></h1>
+				<p id="about_me" class="mb-4">Hi, I am currently a graduate with a Master's degree in Computer Systems Engineering from the Polydisciplinary Faculty at Sultan Moulay Slimane University of Beni Mellal. I am seeking an outstanding internship or freelance opportunity to enhance my skills and take on exciting new challenges.</p>
+				<a id="resume" href="index.html" class="btn btn-default btn-lg mr-3"><i class="icon-grid"></i>View My Resume</a>
+				<div class="spacer d-md-none d-lg-none d-sm-none" data-height="10"></div>
+				<a id="hireme" href="mailto:hassan.elmallouky@gmail.com" class="btn btn-border-light btn-lg"><i class="icon-envelope"></i>Hire me</a>
+			</div>
+			<div class="overlay"></div>
+		</section>
+
+		<!-- section about -->
+		<section id="about" class="shadow-blue white-bg padding">
+			<h3 id="about_section" class="section-title">About Me</h3>
+			<div class="spacer" data-height="80"></div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<img src="/images/me.jpeg" alt="me" class="img-circle img-fluid profile">
+				</div>
+				<div class="col-md-9">
+					<h2 id="about_hello" class="mt-4 mt-md-0 mb-4">Hello,</h2>
+					<p id="about_message" class="mb-0">Hi, I am Hassan and I am currently a graduate with a Master's degree in Computer Systems Engineering from the Polydisciplinary Faculty at Sultan Moulay Slimane University of Beni Mellal. I am seeking an outstanding internship or freelance opportunity to enhance my skills and take on exciting new challenges.</p>
+					<div class="row my-4">
+						<div class="col-md-6">
+							<p id="about_name" class="mb-2">Full Name: <span class="text-dark">Hassan EL MALLOUKY</span></p>
+							<p id="about_birth" class="mb-0">Birthday: <span class="text-dark">02/10/1999</span></p>
+						</div>
+						<div class="col-md-6 mt-2 mt-md-0 mt-sm-2">
+							<p id="about_location" class="mb-2">Location: <span class="text-dark">Khenifra, Morocco</span></p>
+							<p class="mb-0">Email: <span class="text-dark">hassan.elmallouky@gmail.com</span></p>
+						</div>
+					</div>
+					<a href="https://drive.google.com/file/d/1do-jr8so_RmYSNE1AfyXvfGK0V6MopGO/view?usp=sharing" class="btn btn-default mr-3"><i class="icon-cloud-download"></i>Download CV</a>
+					<a href="mailto:hassan.elmallouky@gmail.com" class="btn btn-alt mt-2 mt-md-0 mt-xs-2"><i class="icon-envelope"></i>Hire me</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- section skills -->
+		<section id="skills" class="shadow-blue white-bg padding">
+			<h3 id="skills_section" class="section-title">My skills</h3>
+			<div class="spacer" data-height="80"></div>
+			
+			<p id="skills_intro" class="mb-0">In this section, I showcase a diverse set of technical proficiencies that empower me to bring innovative ideas to life. With a foundation rooted in a Master's degree in Computer Systems Engineering, I have honed my abilities across several key areas. My expertise encompasses:</p>
+
+			<div class="row mt-5">
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<img class="float-left icon" src="/images/spring.png" alt="spring-icon" width="30" height="30">
+							<h4 class="float-left mb-3 mt-0">Spring (Spring Boot)</h4>
+						</div>
+						<p id="skills_spring">
+							Spring is a powerful and widely used framework for building Java-based applications. Spring Boot simplifies the development of Spring applications by providing production-ready defaults and boilerplate code.
+						</p>
+						<div class="spacer" data-height="40"></div>
+					</div>
+				</div>
+			
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<img class="float-left icon" src="/images/angular.png" alt="spring-icon" width="30" height="30">
+							<h4 class="float-left mb-3 mt-0">Angular</h4>
+						</div>
+						<p id="skills_angular">
+							Angular is a popular framework for building dynamic web applications. It provides a structured approach to web development, including features like two-way data binding and dependency injection.
+						</p>
+						<div class="spacer" data-height="40"></div>
+					</div>
+				</div>
+			
+				<div class="col-md-6">
+					<!-- Flutter skill  -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<img class="float-left icon" src="/images/flutter.png" alt="spring-icon" width="30" height="30">
+							<h4 class="float-left mb-3 mt-0">Flutter</h4>
+						</div>
+						<p id="skills_flutter">
+							Flutter is a UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. It enables fast and expressive UI design and development.
+						</p>
+						<div class="spacer" data-height="40"></div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<!-- skill item -->
+					<div class="skill-item">
+						<div class="skill-info clearfix">
+							<img class="float-left icon" src="/images/mongodb.png" alt="spring-icon" width="30" height="30">
+							<h4 class="float-left mb-3 mt-0">MongoDB</h4>
+						</div>
+						<p id="skills_mongodb">
+							MongoDB is a popular NoSQL database that provides a flexible and scalable way to store and manage data. It is widely used in modern applications for its document-based model and ease of scalability.
+						</p>
+						<div class="spacer" data-height="40"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<!-- skill item -->
+				<div class="skill-item">
+					<div class="skill-info clearfix">
+						<img class="float-left icon" src="/images/postgresql.png" alt="spring-icon" width="30" height="30">
+						<h4 class="float-left mb-3 mt-0">PostgreSQL</h4>
+					</div>
+					<p id="skills_postgre">
+						PostgreSQL is a powerful open-source relational database management system known for its extensibility and advanced features. It is widely used for data storage, retrieval, and management in various applications.
+					</p>
+					<div class="spacer" data-height="40"></div>
+				</div>
+			</div>
+		</section>
+
+		
+
+		<!-- section services -->
+		<section id="services" class="shadow-blue white-bg padding">
+			<h3 id="services_section" class="section-title">My Services</h3>
+			<div class="spacer" data-height="80"></div>
+
+			<div class="row">
+
+				<div class="col-md-4 col-sm-6">
+					<!-- service item -->
+					<div class="service-item text-center">
+						<img class="icon icon-simple" src="/images/backend.png" alt="spring-icon" width="40" height="40">
+						<h4 id="services_backend" class="my-3">Back End Development</h4>
+					</div>
+					<div class="spacer" data-height="20"></div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<!-- service item -->
+					<div class="service-item text-center">
+                        <img class="icon icon-simple" src="/images/frontend-development.png" alt="spring-icon" width="40" height="40">
+						<h4 id="services_frontend" class="my-3">Front End Development</h4>
+					</div>
+					<div class="spacer" data-height="20"></div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<!-- service item -->
+					<div class="service-item text-center">
+						<img class="icon icon-simple" src="/images/mobile-development.png" alt="spring-icon" width="40" height="40">
+						<h4 id="services_mobile" class="my-3">Mobile Development</h4>
+					</div>
+					<div class="spacer" data-height="20"></div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<!-- service item -->
+					<div class="service-item text-center">
+						<img class="icon icon-simple" src="/images/icons8-design.gif" alt="spring-icon" width="40" height="40">
+						<h4 id="services_design" class="my-3">Design</h4>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- section experience -->
+		<section id="education" class="shadow-blue white-bg padding">
+			<h3 id="education_section" class="section-title">Education</h3>
+			<div class="spacer" data-height="80"></div>
+
+			<!-- timeline -->
+			<div class="timeline">
+				<div class="entry">
+					<div class="title">
+						<span>2021-2023</span>
+					</div>
+					<div class="body">
+						<h4 id="education_master" class="mt-0">Master's Degree In Computer Systems Engineering</h4>
+						<p id="education_loc1">At The Polydisciplinary Faculty - Sultan Moulay Slimane University of Beni Mellal, Morocco.</p>
+					</div>
+				</div>
+				<div class="entry">
+					<div class="title">
+						<span>2018 - 2021</span>
+					</div>
+					<div class="body">
+						<h4 id="education_license" class="mt-0">Bachelor's Degree In Computer Sciences And Mathematics.</h4>
+						<p id="education_loc2">At The Polydisciplinary Faculty - Sultan Moulay Slimane University of Beni Mellal, Morocco..</p>
+					</div>
+				</div>
+				<div class="entry">
+					<div class="title">
+						<span>2016 - 2017</span>
+					</div>
+					<div class="body">
+						<h4 id="education_bac" class="mt-0">High School's Degree In Physical Sciences.</h4>
+						<p id="education_loc3">At The High School LAHSAN EL YOUSSI of Khenifra, Morocco.</p>
+					</div>
+				</div>
+				<span class="timeline-line"></span>
+			</div>
+		</section>
+
+		<section id="projects" class="shadow-blue white-bg padding">
+			<h3 id="projects_section" class="section-title">My Projects</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div>
+							<a href="https://github.com/HassanELMALLOUKY/Ecommerce_MicroServices">
+								<div class="project-item">
+									<div class="project-image">
+										<img  class="icon icon-simple" src="/images/ecom.gif" alt="Ecom Website" width="120" height="120">
+									</div>
+									<h4 id="projects_project1_title">E-commerce App</h4>
+									<p id="projects_project1_body">An online e-commerce website for selling a variety of products using Spring Boot with MicroService Architecture.</p>
+								</div>
+							</a>
+						</div>
+
+					</div>
+					<div class="col-md-4">
+						<div>
+							<a href="https://github.com/HassanELMALLOUKY/fpbm_management_system_spring_boot">
+								<div class="project-item">
+									<div class="project-image">
+										<img class="icon icon-simple" src="/images/school.jpg" alt="School Management App" width="90" height="90">
+									</div>
+									<h4 id="projects_project2_title">School Management App</h4>
+									<p id="projects_project2_body">An application to manage various school-related tasks and information.</p>
+								</div>
+							</a>
+						</div>
+
+					</div>
+					<div class="col-md-4">
+						<div>
+							<a href="https://github.com/HassanELMALLOUKY/gestionRH_BackEnd_With_Spring">
+								<div class="project-item">
+									<div class="project-image">
+										<img class="icon icon-simple" src="/images/HR.png" alt="HR Management App" width="95" height="95">
+									</div>
+									<h4 id="projects_project3_title">HR Management App</h4>
+									<p id="projects_project3_body">An application to manage Humain resource built using Spring for Back End and Angular for Front End .</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div>
+							<a href="https://play.google.com/store/apps/details?id=com.HassanSoft.emploi&pcampaignid=web_share">
+								<div class="project-item">
+									<div class="project-image">
+										<img class="icon icon-simple" src="https://play-lh.googleusercontent.com/M3ZCQAP8sHbKqGJ0evtnNsZezAzIkDOASPaD6OEP_0rZfanTcwgTcugC3a2q-1RQIG8=w240-h480-rw" alt="HR Management App" width="95" height="95">
+									</div>
+									<h4 id="projects_project4_title">Khadma App</h4>
+									<p id="projects_project4_body">An application to find jobs in Morocco built using Flutter framework.</p>
+								</div>
+							</a>
+						</div>
+
+					</div>
+					<div class="col-md-4">
+						<div class="clickable-div">
+							<a href="https://github.com/HassanELMALLOUKY/FPBM_App">
+								<div class="project-item">
+									<div class="project-image">
+										<img class="icon icon-simple" src="/images/fpbm.png" alt="FP BM App" width="95" height="95">
+									</div>
+									<h4 id="projects_project5_title">FP BM App</h4>
+									<p id="projects_project5_body">A mobile application of our faculty using mobile native development using java & Android Studio.</p>
+								</div>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		
+
+
+		
+		<!-- section contact -->
+		<section id="contact" class="shadow-blue white-bg padding">
+			<h3 id="contact_section" class="section-title">Get in touch</h3>
+			<div class="spacer" data-height="80"></div>
+
+			<div class="row">
+				
+				<div class="col-md-4 mb-4 mb-md-0">
+					<!-- contact info -->
+					<div class="contact-info mb-5">
+						<i class="icon-phone"></i>
+						<div class="details">
+							<h5 id="contact_phone">Phone</h5>
+							<span>+212 0655306439</span>
+						</div>
+					</div>
+					<div class="contact-info mb-5">
+						<i class="icon-envelope"></i>
+						<div class="details">
+							<h5 id="contact_email">Email address</h5>
+							<span>hassan.elmallouky@gmail.com</span>
+						</div>
+					</div>
+					<div class="contact-info">
+						<i class="icon-location-pin"></i>
+						<div class="details">
+							<h5 id="contact_location">Location</h5>
+							<span>Ait Ishaq Khenifra Morocco</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<!-- Contact Form -->
+					<form id="contact-form" class="contact-form">
+						
+						<div class="messages"></div>
+						
+						<div class="row">
+							<div class="column col-md-6">
+								<!-- Name input -->
+								<div class="form-group">
+									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your name"
+										   required="required" data-error="Name is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							
+							<div class="column col-md-6">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address"
+										   required="required" data-error="Email is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+							<div class="column col-md-12">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Subject"
+										   required="required" data-error="Subject is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+					
+							<div class="column col-md-12">
+								<!-- Message textarea -->
+								<div class="form-group">
+									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+
+						<button type="submit" onclick="sendEmail()" name="submit" id="submit-button" value="Submit" class="btn btn-default" ><i class="icon-paper-plane"></i>Send Message</button><!-- Send Button -->
+
+					</form>
+					<div id="success-message" class="success-message"></div>
+					<!-- Contact Form end -->
+				</div>
+
+			</div>
+
+		</section>
+		
+	</main>
+
+</div>
+
+<!-- Go to top button -->
+<a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- SCRIPTS -->
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/infinite-scroll.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
